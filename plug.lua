@@ -12,5 +12,7 @@ Plug('ThePrimeagen/harpoon')
 Plug('nvim-treesitter/nvim-treesitter', { ['do'] = ':TSUpdate' })
 Plug('windwp/nvim-autopairs')
 
+Plug("williamboman/mason.nvim")
+
 vim.call('plug#end')
 
